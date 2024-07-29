@@ -1,0 +1,95 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fbe8a6, #f4976c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.label {
+    margin-bottom: 20px;
+}
+
+.label label {
+    font-size: 18px;
+    color: #303C6C;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.label input {
+    padding: 10px;
+    border: 2px solid #B4DFE5;
+    border-radius: 6px;
+    width: calc(100% - 22px);
+    box-sizing: border-box;
+}
+
+.Convert {
+    margin-bottom: 20px;
+}
+
+.Convert h2 {
+    font-size: 18px;
+    color: #303C6C;
+    margin-bottom: 10px;
+}
+
+.convert-type {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.convert-type input {
+    margin-right: 10px;
+}
+
+.convert-type label {
+    font-size: 16px;
+    color: #303C6C;
+}
+
+button {
+    background-color: #D2FDFF;
+    color: #303C6C;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #B4DFE5;
+    color: #fff;
+}
+
+.resultDiv{
+ display: flex;
+ justify-content: center;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #303C6C;
+    border: solid 2px #2cd5eb;
+    width: fit-content;
+    padding: 10px;
+}
