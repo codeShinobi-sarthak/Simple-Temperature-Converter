@@ -1,3 +1,5 @@
+# Live: https://codeshinobi-sarthak.github.io/Simple-Temperature-Converter/
+
 # Temperature Converter
 
 > A simple temperature converter built using HTML, CSS, and JavaScript. This project allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin with a clean and modern interface.
